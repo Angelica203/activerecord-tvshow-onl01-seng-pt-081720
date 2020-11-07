@@ -3,6 +3,3 @@ class AddSeasonToShows < ActiveRecord::Migration[5.2]
     add_column :shows, :season, :string 
   end
 
-  def highest_rating
-    SELECT * FROM shows WHERE 
-end
